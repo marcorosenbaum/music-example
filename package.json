@@ -17,6 +17,7 @@
     "@vee-validate/rules": "^4.12.4",
     "firebase": "^10.7.2",
     "howler": "^2.2.4",
+    "lodash": "^4.17.21",
     "nprogress": "^0.2.0",
     "pinia": "^2.1.7",
     "vee-validate": "^4.12.4",
