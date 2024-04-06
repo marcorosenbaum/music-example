@@ -77,3 +77,9 @@ input[type='file'] {
     background-position: -4000px 0;
   }
 }
+
+@media screen and (max-width: 300px) {
+  html {
+    font-size: 6px;
+  }
+}
