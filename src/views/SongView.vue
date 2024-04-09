@@ -9,6 +9,7 @@
       <div class="container mx-auto flex items-center">
         <!-- Play/Pause Button -->
         <button
+          id="play-btn"
           @click.prevent="newSong(song)"
           type="button"
           class="z-50 h-24 w-24 text-3xl bg-white text-black rounded-full focus:outline-none"
@@ -127,7 +128,7 @@ export default {
       })
     }
   },
-  async beforeRouterEnter(to, from, next) {
+  async beforeRouteEnter(to, from, next) {
     const docSnapshot = await songsCollection.doc(to.params.id).get()
 
     next((vm) => {

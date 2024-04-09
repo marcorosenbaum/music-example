@@ -63,7 +63,7 @@ export default {
           return
         }
 
-        if (!navigator.online) {
+        if (!navigator.onLine) {
           this.uploads.push({
             task: {},
             current_progress: 100,
